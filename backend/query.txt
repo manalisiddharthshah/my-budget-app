@@ -1,0 +1,11 @@
+CREATE TABLE expenses (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL,
+  expense_type VARCHAR NOT NULL,
+  amount NUMERIC NOT NULL,
+  date DATE NOT NULL
+);
+
+
+
+CREATE DATABASE tech_assessment;
